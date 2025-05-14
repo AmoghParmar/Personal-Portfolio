@@ -41,16 +41,13 @@ function circleChaptaKaro(){
         var xdiff = dets.clientX - xprev;
         var ydiff = dets.clientY - yprev;
 
-        // dets.utils.clamp(minimum,maximum,diff);
-        
         xscale = gsap.utils.clamp(0.8,1.2,xdiff);
         yscale = gsap.utils.clamp(0.8,1.2,ydiff);
-        
+
         xprev = dets.clientX;
         yprev = dets.clientY;
         circleMouseFollower(xscale , yscale);
 
-        // console.log(xdiff, ydiff);
         timeout = setTimeout(function(){
             document.querySelector("#minicircle").style.transform = `translate(${dets.clientX}px , ${dets.clientY}px) scale(1,1)`;
         },100)
@@ -87,8 +84,6 @@ document.querySelectorAll(".page2-inner").forEach(function(elem){
         });
     });
 
-
-
     elem.addEventListener("mousemove", function(dets){
 
         var diff = dets.clientY - elem.getBoundingClientRect().top;
@@ -96,15 +91,12 @@ document.querySelectorAll(".page2-inner").forEach(function(elem){
         diffrot = dets.clientX - previous;
         previous = dets.clientX;
 
-
         gsap.to(elem.querySelector("img") , {
             opacity:1,
             ease:Power4,
             top:diffrot,
             left:dets.clientX,
             rotate:gsap.utils.clamp(-20,20,diffrot*0.5),
-
-
         })
     });
 });

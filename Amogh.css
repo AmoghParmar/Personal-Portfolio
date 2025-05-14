@@ -1,11 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "GeneralSans-Medium"; */
-    font-family:  sans-serif;
+    font-family: sans-serif;
 }
 
 html,body{
@@ -18,9 +16,6 @@ html,body{
     width: 50px;
     position: absolute;
     z-index: 9999;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     background-color: aqua;
     border-radius: 50%;
 }
@@ -81,7 +76,6 @@ html,body{
 #nav{
     width: 100%;
     height: 10vh;
-    /* border: 1px solid rebeccapurple; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,10 +92,8 @@ html,body{
     font-size: 1.0vw;
 }
 #heading{
-    /* color: white; */
     width: 100%;
     height: 36vh;
-    /* border: 1px solid rebeccapurple; */
     text-transform: uppercase;
     margin-top: 6vw;
     padding: 0 3vw;
@@ -119,10 +111,8 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: end;
-    /* background-color: rebeccapurple;   */
 }
 .blocktext h5{
-    /* background-color: yellow; */
     text-transform: uppercase;
     text-align: right !important;
     font-size: 1vw;
@@ -131,7 +121,6 @@ html,body{
 #smallheadings{
     width: 100%;
     height: 10vh;
-    /* border: 1px solid rebeccapurple; */
     padding: 0 3vw;
     display: flex;
     flex-direction: column;
@@ -144,7 +133,6 @@ html,body{
     font-size: 1.1vw;
 }
 #page1-footer{
-    /* border: 1px solid red; */
     margin-top: 1vh;
     height: 5vh;
     width: 100%;
@@ -160,10 +148,7 @@ html,body{
     padding: 0 10px;
     color: white;
     font-size: 1vw;
-    /* margin-right: 2vw; */
-    
 }
-
 #page1-footer a:after{
     content: "";
     position: absolute;
@@ -174,11 +159,9 @@ html,body{
     bottom: -5px;
     transition: 0.3s;
 }
-
 #page1-footer a:hover:after{
     width: 100%;
 }
-
 #iconset{
     display: flex;
     gap: 0.8vw;
@@ -203,7 +186,6 @@ html,body{
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    /* position: relative; */
 }
 .page2-inner{
     position: relative;
@@ -243,16 +225,13 @@ html,body{
     padding: 10vw 10vw ;
     padding-left: 40vw;
     gap: 40px;
-    /* height: 100vh; */
     background-color: black;
-    /* margin-top: 10%; */
 }
 #page3 img{
     width: 200px;
 }
 #textabout{
     width: 30rem;
-    /* background-color: red; */
 }
 #textabout h3{
     text-transform: uppercase;
@@ -324,98 +303,7 @@ html,body{
     bottom: -10px;
     transition: .3s;
 }
-
 #footerright a:hover:after{
     width: 100%;
 }
 
-
-
-/* #page3-upper{
-    display: flex;
-    margin-left: 38%;
-    width: 55%;
-    height: 45%;
-    
-}
-#page3-upper-img{
-    width: 50%;
-    height: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#page3-upper-img>img{
-    width: 100%;
-}
-#page3-upper-inner{
-    width:100%;
-    padding: 0 4vw;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-}
-#page3-upper-inner h3{
-    font-size: 14px;
-    text-transform: uppercase;
-    color: gray;
-    margin-bottom: 4px;
-}
-#page3-upper-inner p{
-    font-size: 18px;
-}
-#page3-upper-inner button{
-    background-color: transparent;
-    color: white;
-    padding: 8px 16px;
-    border: 1px solid white;
-    margin-top: 18px;
-    border-radius: 50px;
-
-    width: 25%;
-} */
-/* #page3-lower{
- 
-    padding: 0 3vw;
-    width: 100%;
-    height: 10%;
-    margin-top: 10vw;
-}
-#page3-lower h3{
-    color: gray;
-    font-size: 1vw;
-}
-#page3-lower h1{
-    color: white;
-    margin-top: 4px;
-    font-size: 1.1vw;
-}
-#page3-footer{
-    margin-top: 93.7px;
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3vw;
-}
-.foot-left{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-weight: 800;
-    font-size: 16px;
-}
-.foot-right{
-    display: flex;
-    gap: 48px;
-    list-style: none;
-}
-.foot-right>li>a{
-    text-decoration: none;
-    color: white;
-    font-weight: 800;
-    font-size: 15px;
-} */
